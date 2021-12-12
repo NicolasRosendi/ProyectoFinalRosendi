@@ -1,0 +1,42 @@
+h1{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    border-color: black;
+    border-top: black;
+    outline-color: azure;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+}
+body{
+    background-color:whitesmoke;
+}
+input{
+    width: fit-content;
+    height: fit-content;
+    margin: 5px auto;
+    text-align: left;
+}
+div{
+    width: auto;
+    border: 1px solid;
+    margin: 15px auto;
+    padding: 100px;
+    background-color: cornsilk;
+
+}
+video{
+    width: 1500px;
+}
+a{
+    width: auto;
+    text-decoration: black;
+    color: black;
+    border: 1px solid black;
+    padding: 0px auto;
+    background: transparent;
+    background-color: gainsboro;
+}
