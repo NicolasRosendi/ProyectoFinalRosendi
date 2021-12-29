@@ -10,13 +10,15 @@
 </head>
 <body>
     <header>
-        <h1>Asistente Personal</h1>
+        <h1 id="gang">Asistente Personal</h1>
     </header>
     <section>
         <div id="cuerpo">
-            <input id="nusuario" type="text">
-            <input id="rusuario" type="text">
-            <input type="button" value="Iniciar Sesión" id="logeo">
+            <input id="nusuario" type="text" 
+            minlength="1" maxlength="50" required>
+            <input id="rusuario" type="text" 
+            minlength="1" maxlength="50" required>
+            <input type="button" value="Iniciar Sesión" id="logeo" onclick="nis()">
             </div> 
     </section>
     <section>
