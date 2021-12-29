@@ -33,7 +33,7 @@ function nis(){
     var lol = document.getElementById("rusuario").value;   
     var name = sessionStorage.getItem(tender);
     var surname = sessionStorage.getItem(lol);
-    nombre = name;
+
 
 
     logg.parentNode.removeChild(logg);
