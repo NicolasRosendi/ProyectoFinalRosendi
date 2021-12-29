@@ -22,10 +22,7 @@ $("#cuerpo").append(`<div id="asistente">
 
 
 
-let logearse = document.getElementById("logeo");
-let box =document.getElementById("cuerpo");
-var boton = document.getElementById("logeo"); 
-var nombre;
+
 
 
 function nis(){
@@ -39,7 +36,6 @@ function nis(){
     var lol = document.getElementById("rusuario").value;   
     var name = sessionStorage.getItem(tender);
     var surname = sessionStorage.getItem(lol);
-    nombre = name;
 
 
     logg.parentNode.removeChild(logg);
