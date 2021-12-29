@@ -22,12 +22,6 @@ $("#cuerpo").append(`<div id="asistente">
 
 
 
-let logearse = document.getElementById("logeo");
-let box =document.getElementById("cuerpo");
-var boton = document.getElementById("logeo"); 
-var nombre;
-
-
 function nis(){
  
 
